@@ -1,0 +1,23 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "OAuth web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kundanhere/oauth.git"
+  },
+  "author": "Kundan Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kundanhere/oauth/issues"
+  },
+  "homepage": "https://github.com/kundanhere/oauth#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
