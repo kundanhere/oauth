@@ -28,6 +28,7 @@ passport.use(
           let newUser = new User({
             userid: profile.id,
             username: profile.displayName,
+            thumbnail: profile._json.picture,
           });
           // save new user into db
           newUser

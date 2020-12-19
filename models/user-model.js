@@ -5,6 +5,7 @@ const Schema = mongoose.Schema;
 const userSchema = new Schema({
   userid: String,
   username: String,
+  thumbnail: String,
 });
 
 // export user model
