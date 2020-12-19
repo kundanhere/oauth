@@ -1,7 +1,14 @@
-# OAuth
+# OAuth-2.0
 
-## install dependencies
+OAuth-based account sign-in demo
 
 ```bash
+# install dependencies
 $ npm install
+
+# run dev server
+$ npm run dev
+
+# or
+$ npm run start
 ```

@@ -12,6 +12,9 @@ const app = express();
 // set up view engine
 app.set('view engine', 'ejs');
 
+// set up static directory
+app.use(express.static(__dirname + '/public'));
+
 // set up session cookies
 app.use(
   cookieSession({
