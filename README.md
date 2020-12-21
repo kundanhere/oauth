@@ -2,13 +2,23 @@
 
 OAuth-based account sign-in demo
 
+## Quick Start
+
+### Install dependencies:
+
 ```bash
-# install dependencies
 $ npm install
+```
+### Start the server:
 
-# run dev server
-$ npm run dev
-
-# or
+```
 $ npm run start
 ```
+
+### or run dev server for hot reload:
+
+```bash
+$ npm run dev
+```
+
+<b> Visit the website at http://localhost:3000 </b>
